@@ -26013,16 +26013,39 @@ page-home ion-content .field-buttons button {
   border: 5px solid #7e2fed;
 }
 
-page-login ion-item {
-  border-top: 0 !important;
+page-login .scroll-content {
+  padding: 0 30px !important;
+  background: linear-gradient(120deg, #7ee4da, #04bfae, #7ee4da);
+  background: -webkit-linear-gradient(120deg, #7ee4da, #04bfae, #7ee4da);
+  text-align: center;
 }
 
-page-login p {
+page-login .scroll-content h1 {
+  font-size: 50px;
+  font-style: italic;
+  color: white;
+  padding-top: 100px;
+}
+
+page-login .scroll-content ion-item {
+  border-radius: 50px;
+  border: 2px solid white !important;
+  background: rgba(7, 124, 95, 0.1);
+}
+
+page-login .scroll-content ion-item ion-input {
+  padding: 0 30px;
+  color: white;
+}
+
+page-login .scroll-content p {
   text-align: center;
   font-size: 20px;
   margin: 0;
+  color: white;
   font-style: italic;
-  text-shadow: 0 0 2px #555555;
+  text-shadow: 0 0 2px #c1c1c1;
+  padding: 20px;
 }
 
 page-medication ion-content .btn-search {
@@ -26257,6 +26280,21 @@ page-payment ion-content .field-form ion-input input {
   margin: 8px;
 }
 
-page-signup ion-item {
-  border-top: 0 !important;
+page-signup .scroll-content {
+  padding: 100px 30px !important;
+  background: linear-gradient(120deg, #7ee4da, #04bfae, #7ee4da);
+  background: -webkit-linear-gradient(120deg, #7ee4da, #04bfae, #7ee4da);
+  text-align: center;
+}
+
+page-signup .scroll-content ion-item {
+  border-radius: 50px;
+  border: 2px solid white !important;
+  background: rgba(7, 124, 95, 0.1);
+  margin: 20px 0;
+}
+
+page-signup .scroll-content ion-item ion-input, page-signup .scroll-content ion-item ion-select {
+  padding: 0 30px;
+  color: white;
 }
